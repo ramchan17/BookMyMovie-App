@@ -1,0 +1,53 @@
+.main-header {
+  background-color: #222;
+  height: 36px;
+  padding: 8px 32px 8px 16px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: #ff7f7f;
+  height: 35px;
+  animation: rotation 8s infinite linear;
+  cursor: pointer;
+}
+
+.bookshow-button {
+  margin-right: 10px;
+  display: inline;
+}
+
+.Modal {
+  padding: 10px;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: #fff;
+}
+
+.Overlay {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.main-header p {
+  color: #fff;
+}

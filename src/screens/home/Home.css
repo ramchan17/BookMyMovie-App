@@ -1,0 +1,37 @@
+.upcoming-movies {
+  background-color: #ff9999;
+}
+
+.upcoming-movies p {
+  margin: 0;
+  padding: 8px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.root {
+  /* margin: 0; */
+  /* flex-wrap: "nowrap"; */
+  height: 300px;
+}
+
+.movie-poster {
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 16px;
+}
+
+.left {
+  width: 76%;
+}
+
+.right {
+  padding-top: 20px;
+  width: 24%;
+}
